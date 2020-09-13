@@ -73,24 +73,40 @@ h2 {
 }
 
 .list-group {
-    
+    padding: 0 20px;
 }
 
 .special {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 3;
+    margin-top: -10px;
+    margin-left: -20px
+    
 }
 
 
 
+.footer-logo {
+    width: 45px;
+    height: auto;
+    margin-top: -10px;
+   margin-left: -10px;
+}
 
+
+.footer-nav {
+    position: relative;
+}
 
 
 
 
 footer {
     background-color: black;
+    padding: 40px 10px;
 }
 
 .footer-links {
@@ -131,3 +147,11 @@ nav {
      display: block;
  }
 }
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 923px){
+    .search-link {
+       margin-right: 40px;
+    }
+   }
