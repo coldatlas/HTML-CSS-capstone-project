@@ -1,19 +1,39 @@
 nav {
-    display: flex;
-    flex-direction: column;
+
+ width: 100%;
     
-    
-    background-color: green;
+    background-color: #F15625;
 }
 
+.pllay {
+    margin: auto;
+}
 
+.pllay-links a{
+    color: white;
+}
 
-
+.links-text {
+    display: none;
+}
 
 @media only screen and (min-width: 768px) {
-
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pllay {
+    margin: 0;
+}
+.pllay-links{
+   align-self: center;
+   justify-content: space-between;
+}
 }
 
 @media only screen and (min-width: 1024px) {
-
+ .links-text {
+     display: block;
+ }
 }
