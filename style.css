@@ -5,6 +5,15 @@ nav {
     background-color: #F15625;
 }
 
+nav img{
+   width: 50%;
+   height: auto;
+}
+
+h2 {
+    -webkit-text-stroke: 1px black;
+}
+
 .pllay {
     margin: auto;
 }
@@ -17,15 +26,100 @@ nav {
     display: none;
 }
 
+.search-section {
+    background-image: url(./images/homepage-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+}
+
+.search-div {
+    border-radius: 5px;
+    background-color: lightgray;
+    opacity: 0.9;
+    margin: 0 10%;
+    padding-top: 30px;
+}
+
+.search-bar {
+    margin: 0 5%;
+}
+
+.search-keyword {
+ margin: 5px 5%;
+}
+
+.how-it-works {
+    background-color: lightgray;
+    width: 120px;
+    margin: 10px auto;
+    color: black;
+}
+
+#button-addon2 {
+    background-color: #F15625;
+    opacity: 1;
+}
+
+
+
+.list-group-item {
+    border-color: grey;
+    
+}
+
+.list-group-item a{
+    color: white; 
+}
+
+.list-group {
+    
+}
+
+.special {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+}
+
+.footer-links {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 768px) {
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.pllay {
-    margin: 0;
-}
+
 .pllay-links{
    align-self: center;
    justify-content: space-between;
