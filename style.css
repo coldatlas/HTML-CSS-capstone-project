@@ -1,3 +1,7 @@
+html,body {
+  overflow-x: hidden;
+}
+
 nav {
   width: 100%;
   background-color: #d3574A;
