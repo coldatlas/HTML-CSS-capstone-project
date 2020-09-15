@@ -116,6 +116,12 @@ footer {
   background-color: black;
 }
 
+@media only screen and (max-width: 768px) {
+  nav img {
+    width: 20%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   nav {
     display: flex;
