@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-     <div><a class=" pllay row justify-content-center py-3" href="#"><img  src="./images/pllay.png" alt="pllay"></a></div>
+      <div><a class=" pllay row justify-content-center py-3" href="./landing page.html"><img  src="./images/pllay.png" alt="pllay"></a></div>
      <div class=" pllay-links row justify-content-around  mx-5  py-3">
         <a href="#"><i class="fas fa-search mx-md-4 fa-2x"></i></a>
         <a class="links-text" href="#"><b> Games </b></a>
@@ -23,18 +23,44 @@
      </div>
     </nav>
     <main>
-        <section class="search-section">
-            <h2 class="row mx-5 text-center justify-content-center text-white">PLLAY... YOUR GATEWAY TO GAMING CENTERS IN EGYPT</h2>
-            <div class="row justify-content-start search-div">
-                <h6 class="search-keyword">SEARCH BY KEYWORD</h6>
-                <div class="search-bar input-group mb-3">
-                    <input type="text" class="form-control" placeholder="" aria-label="search" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-secondary" type="button" id="button-addon2">SEARCH</button>
-                    </div>
-                  </div>
+        <section class="search-page">
+            
+            <div class="justify-content-center search-div-page">
+                
+              <h2 class="row search-keyword text-center justify-content-center text-black-50 my-3">Filter by name, area, rating:</h2>
+              <form action="">
+              <div class="mx-3 form-row">
+                <div class="form-group col">
+                  <label for="inputname">Name</label>
+                  <input type="text" class="form-control" id="inputname" placeholder="Game center name">
+                </div>
+              <div class="form-group col">
+                <label for="inputarea">Area</label>
+                <select id="inputarea" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Giza</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label for="inputrating">Rating</label>
+                <select id="inputrating" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Highest to Lowest</option>
+                  <option>Lowest to Highest</option>
+                </select>
+              </div>
+              <button type="submit" class="btn h-100 align-self-center mx-3 mt-3 btn-primary">Search</button>
+            </div>
+            </form>
             </div>
             <a href="#" class="how-it-works row justify-content-center p-2">How it works</a>
+        </section>
+        <section >
+          <h1 class="row mb-5 justify-content-center">Search Results Found 1 center(s).</h1>
+          <div>
+          <a class="row my-4 justify-content-center" href="./details-page.html"><img src="./images/ibc.png" alt="ibc"></a>
+          <a class="row my-4 text-decoration-none justify-content-center" href="./details-page.html"><b>International Bowling Center</b></a>
+        </div>
         </section>
     </main>
     <footer >
@@ -42,8 +68,8 @@
             
         
         <ul class=" list-group list-group-horizontal-sm">
-            <li class="footer-links list-group-item"><a href="#">HOME</a></li>
-            <li class="search-link footer-links list-group-item"><a href="#">SEARCH</a></li>
+          <li class="footer-links list-group-item"><a href="./landing page.html">HOME</a></li>
+          <li class="search-link footer-links list-group-item"><a href="./search page.html">SEARCH</a></li>
             <li class=" footer-links list-group-item"><a href="#">ABOUT</a></li>
             <li class=" footer-links list-group-item"><a href="#">ADVERTISE</a></li>
           </ul>

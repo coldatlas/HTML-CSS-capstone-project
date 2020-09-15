@@ -33,11 +33,23 @@ h2 {
     padding: 10% 0;
 }
 
+.search-page {
+    background-color: white;
+    padding: 10% 0;
+}
+
 .search-div {
     border-radius: 5px;
     background-color: lightgray;
     opacity: 0.9;
     margin: 0 10%;
+    padding-top: 30px;
+}
+
+.search-div-page {
+    border-radius: 5px;
+    background-color: lightgray;
+    
     padding-top: 30px;
 }
 
