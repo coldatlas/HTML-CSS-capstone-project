@@ -61,6 +61,10 @@ h2 {
  margin: 5px 5%;
 }
 
+.map-directions {
+    color: #F15625;
+}
+
 .how-it-works {
     background-color: lightgray;
     width: 120px;
