@@ -32,6 +32,14 @@ Text editor,Github profile and Git.
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/coldyatlas/)
 
+## Credits (Design Layout)
+
+- Mathew Njuguna
+
+- Sam Achola
+
+- Kevin Mutua
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
