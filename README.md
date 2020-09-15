@@ -18,7 +18,7 @@ Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://coldatlas.github.io/bootstrap-project/)
+[Live Demo Link](https://coldatlas.github.io/HTML-CSS-capstone-project/)
 
 ## Prerequisites
 
