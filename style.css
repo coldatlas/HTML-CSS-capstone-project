@@ -4,6 +4,10 @@ html,body {
 
 nav {
   width: 100%;
+  
+}
+
+.colorscheme {
   background-color: #d3574A;
 }
 
@@ -62,10 +66,6 @@ h1 {
   margin: 5px 5%;
 }
 
-.map-directions {
-  color:#d3574A;
-}
-
 .how-it-works {
   background-color: lightgray;
   width: 120px;
@@ -74,7 +74,6 @@ h1 {
 }
 
 #button-addon2 {
-  background-color: rgb(211, 87, 74);
   opacity: 1;
 }
 
