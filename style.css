@@ -20,6 +20,10 @@ h1 {
   -webkit-text-stroke: 1px black;
 }
 
+h2 {
+  color: #d3574A;
+}
+
 .pllay {
   margin: auto;
 }
@@ -139,6 +143,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+
 @media only screen and (max-width: 768px) {
   nav img {
     width: 20%;
