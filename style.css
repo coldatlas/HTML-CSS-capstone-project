@@ -140,6 +140,15 @@ footer {
   nav img {
     width: 20%;
   }
+  
+}
+@media only screen and (max-width: 576px) {
+  nav img {
+    width: 20%;
+  }
+  .special {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -160,13 +169,11 @@ footer {
   .links-text {
     display: block;
   }
-  .special {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 923px) {
   .search-link {
     margin-right: 40px;
   }
+  
 }
