@@ -77,6 +77,10 @@ h1 {
   opacity: 1;
 }
 
+.mapdirections {
+  color: #d3574A;
+}
+
 .list-group-item {
   border-color: grey;
 }
