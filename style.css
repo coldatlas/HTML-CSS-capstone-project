@@ -120,6 +120,22 @@ footer {
   background-color: black;
 }
 
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media only screen and (max-width: 768px) {
   nav img {
     width: 20%;
@@ -131,6 +147,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   .pllay-links {
