@@ -160,6 +160,9 @@ footer {
   .links-text {
     display: block;
   }
+  .special {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 923px) {
