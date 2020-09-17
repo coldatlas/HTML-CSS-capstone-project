@@ -120,13 +120,32 @@ h2 {
 
 footer {
   background-color: black;
-  padding: 40px 10px;
+  padding: 40px 10px 0 10px;
 }
 
 .footer-links {
   background-color: black;
 }
 
+.footer-mid {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+  gap: 100px;
+}
+
+.footer-end {
+  background-color: #1F1F1F;
+  color: #5B5B5B;
+}
+
+.footer-icons {
+  color: #5B5B5B;
+}
 .results {
   display: flex;
   flex-direction: row;
