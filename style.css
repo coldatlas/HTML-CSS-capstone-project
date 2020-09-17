@@ -139,9 +139,11 @@ h2 {
 
 .footer-logo {
   width: 45px;
-  height: auto;
-  margin-top: -10px;
+  height: 70px;
+  margin-top: -13px;
   margin-left: -10px;
+  border-radius: 80%;
+ 
 }
 
 .footer-nav {
