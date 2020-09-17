@@ -77,6 +77,38 @@ h2 {
   color: black;
 }
 
+.strip-1 {
+  background-color: #E27F65;
+  min-height: 210px;
+}
+
+.strip-1 img{
+  max-width: 250px;
+ 
+}
+
+
+.strip-2 {
+  background-color: #98A4A6;
+  min-height: 210px;
+}
+
+.strip-2 img {
+ border-radius: 50%;
+ max-width: 250px;
+ height: 210px;
+}
+
+.strip-3 {
+  background-color: #509BD7;
+  min-height: 210px;
+}
+
+.strip-3 img {
+  max-width: 250px;
+  height: 260px;
+ }
+
 #button-addon2 {
   opacity: 1;
 }
