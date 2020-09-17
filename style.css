@@ -45,7 +45,7 @@ h2 {
 
 .search-page {
   background-color: white;
-  padding: 10% 0;
+  padding: 10% 0 5% 0;
 }
 
 .search-div {
@@ -113,7 +113,7 @@ h2 {
   opacity: 1;
 }
 
-.mapdirections {
+.defaultcolor {
   color: #d3574A;
 }
 
