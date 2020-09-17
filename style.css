@@ -159,7 +159,6 @@ footer {
 
 .footer-mid {
   display: flex;
-  flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-around;
   text-align: center;
@@ -176,10 +175,9 @@ footer {
 .footer-icons {
   color: #5b5b5b;
 }
+
 .results {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
   flex-flow: row wrap;
@@ -198,10 +196,12 @@ footer {
     width: 20%;
   }
 }
+
 @media only screen and (max-width: 576px) {
   nav img {
     width: 20%;
   }
+
   .special {
     display: none;
   }
