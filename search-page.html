@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pllay</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/66ed8e5d3c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="colorscheme">
+      <div
+        ><a class="pllay row justify-content-center py-3" href="./index.html"
+          ><img src="./images/pllay.png" alt="pllay" /></a
+      ></div>
+      <div class="pllay-links row justify-content-around mx-5 py-3">
+        <a href="#"><i class="fas fa-search mx-md-4 fa-2x"></i></a>
+        <a class="links-text" href="#"><b> Games </b></a>
+        <a href="#"><i class="far fa-user mx-md-4 fa-2x"></i></a>
+        <a class="links-text" href="#"><b> About </b></a>
+        <a href="#"><i class="fas fa-wifi mx-md-4 fa-2x"></i></a>
+        <a class="links-text" href="#"><b> Blog </b></a>
+        <a href="#"><i class="fas fa-bars mx-md-4 fa-2x"></i></a>
+        <a class="links-text" href="#"><b> More </b></a>
+      </div>
+    </nav>
+    <main>
+      <section class="search-page">
+        <div class="justify-content-center search-div-page">
+          <h2
+            class="row search-keyword text-center justify-content-center text-black-50 my-3"
+            >Filter by name, area, rating:</h2
+          >
+          <form action="#">
+            <div class="mx-3 form-row">
+              <div class="form-group col">
+                <label for="inputname">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputname"
+                  placeholder="Game center name"
+                />
+              </div>
+              <div class="form-group col">
+                <label for="inputarea">Area</label>
+                <select id="inputarea" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Giza</option>
+                  <option>Cairo</option>
+                  <option>Alexandria</option>
+                </select>
+              </div>
+              <div class="form-group col">
+                <label for="inputrating">Rating</label>
+                <select id="inputrating" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Highest to Lowest</option>
+                  <option>Lowest to Highest</option>
+                </select>
+              </div>
+              <button
+                type="submit"
+                class="btn h-100 align-self-center mx-3 mt-3 btn-primary"
+                >Search</button
+              >
+            </div>
+          </form>
+        </div>
+        <a href="#" class="how-it-works row justify-content-center p-2"
+          >How it works</a
+        >
+      </section>
+      <h1 class="row mb-5 mx-auto justify-content-center"
+        >Search Results Found 6 center(s).</h1
+      >
+      <section class="results">
+        <h2 class="d-none">Search Results Found 6 center(s).</h2>
+        <div class="result">
+          <a class="my-4" href="./details-page.html"
+            ><img class="w-100 h-auto" src="./images/ibc.png" alt="ibc"
+          /></a>
+          <a
+            class="my-4 text-decoration-none text-center"
+            href="./details-page.html"
+            ><b>International Bowling Center</b></a
+          >
+        </div>
+        <div class="result">
+          <a class="my-4" href="./details-page.html"
+            ><img class="w-100 h-auto" src="./images/ski.png" alt="ski"
+          /></a>
+          <a
+            class="my-4 text-decoration-none text-center"
+            href="./details-page.html"
+            ><b>Ski Egypt</b></a
+          >
+        </div>
+        <div class="result">
+          <a class="my-4" href="./details-page.html"
+            ><img
+              class="w-100 h-auto"
+              src="./images/escapers.png"
+              alt="escapers"
+          /></a>
+          <a
+            class="my-4 text-decoration-none text-center"
+            href="./details-page.html"
+            ><b>Escapers</b></a
+          >
+        </div>
+        <div class="result">
+          <a class="my-4" href="./details-page.html"
+            ><img
+              class="w-100 h-auto"
+              src="./images/kidzania.png"
+              alt="kidzania"
+          /></a>
+          <a
+            class="my-4 text-decoration-none text-center"
+            href="./details-page.html"
+            ><b>KidZania</b></a
+          >
+        </div>
+        <div class="result">
+          <a class="my-4" href="./details-page.html"
+            ><img
+              class="w-100 h-auto"
+              src="./images/immersive.png"
+              alt="immersive"
+          /></a>
+          <a
+            class="my-4 text-decoration-none text-center"
+            href="./details-page.html"
+            ><b>Immersive VR</b></a
+          >
+        </div>
+        <div class="result">
+          <a class="my-4" href="./details-page.html"
+            ><img class="w-100 h-auto" src="./images/cave.png" alt="cave"
+          /></a>
+          <a
+            class="my-4 text-decoration-none text-center"
+            href="./details-page.html"
+            ><b>Cave Gaming</b></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-nav row justify-content-center">
+        <ul class="list-group list-group-horizontal-sm">
+          <li class="footer-links list-group-item"
+            ><a href="./index.html">HOME</a></li
+          >
+          <li class="search-link footer-links list-group-item"
+            ><a href="./search-page.html">SEARCH</a></li
+          >
+          <li class="footer-links list-group-item"><a href="#">ABOUT</a></li>
+          <li class="footer-links list-group-item"
+            ><a href="#">ADVERTISE</a></li
+          >
+        </ul>
+        <div class="footer-links special list-group-item"
+          ><a href="./index.html"
+            ><img
+              class="footer-logo"
+              src="./images/slazzer-edit-image.png"
+              alt="footer-logo" /></a
+        ></div>
+        <ul class="list-group list-group-horizontal-sm">
+          <li class="footer-links list-group-item"><a href="#">FACEBOOK</a></li>
+          <li class="footer-links list-group-item"><a href="#">TWITTER</a></li>
+          <li class="footer-links list-group-item"><a href="#">BLOG</a></li>
+          <li class="footer-links list-group-item"><a href="#">GOOGLE+</a></li>
+        </ul>
+      </div>
+      <div class="footer-mid">
+        <div>
+          <h5 class="text-white">SUBSCRIBE</h5>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="you@example.com"
+              aria-describedby="button-addon2"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon2"
+                >SEND</button
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-white">CONTACT</h5>
+          <small class="text-white">Have a question or submission?</small><br />
+          <a href="#" class="defaultcolo"><small> info@pllay.com</small></a>
+        </div>
+        <div>
+          <h5 class="text-white">ABOUT</h5>
+          <small class="text-white"
+            >Pllay is an online directory for gaming centers across Egypt.
+            <br />
+            <a class="defaultcolor" href="#">Learn more...</a></small
+          >
+        </div>
+      </div>
+      <div class="footer-end h-auto justify-content-between p-4 row">
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-wordpress"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+          <small
+            >© PLLAY 2020. ALL RIGHTS RESERVED. POWERED BY
+            <i class="fab fa-github"></i> <b>GITHUB</b>. LOVE AND
+            AWESOMENESS</small
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
